@@ -251,6 +251,14 @@ h2 {
   padding: 12px 16px;
 }
 
+.portrait-visual {
+  max-width: 520px;
+}
+
+.portrait-visual img {
+  aspect-ratio: 3 / 4;
+}
+
 .image-grid {
   display: grid;
   gap: 1px;
