@@ -1,0 +1,265 @@
+:root {
+  --ink: #18201d;
+  --muted: #5d6861;
+  --line: #d7ddd8;
+  --paper: #fbfaf6;
+  --soft: #eef4f1;
+  --accent: #176a73;
+  --accent-dark: #0f4b51;
+  --gold: #b4813c;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.55;
+}
+
+a {
+  color: var(--accent-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  align-items: center;
+  background: rgba(251, 250, 246, .94);
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 18px clamp(18px, 5vw, 64px);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.brand {
+  color: var(--ink);
+  font-size: 1.05rem;
+  letter-spacing: 0;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+nav a {
+  color: var(--muted);
+  font-size: .95rem;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(320px, 560px);
+  min-height: calc(100vh - 78px);
+}
+
+.hero-media {
+  align-items: end;
+  background:
+    linear-gradient(135deg, rgba(15, 75, 81, .15), rgba(180, 129, 60, .18)),
+    url("assets/aviation-hero.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  min-height: 420px;
+  padding: 28px;
+}
+
+.hero-media span {
+  background: rgba(255, 255, 255, .88);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: .9rem;
+  padding: 10px 12px;
+}
+
+.hero-copy {
+  align-self: center;
+  padding: clamp(32px, 7vw, 84px);
+}
+
+.eyebrow,
+.kicker {
+  color: var(--gold);
+  font-size: .82rem;
+  font-weight: 800;
+  letter-spacing: .08em;
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  letter-spacing: 0;
+  line-height: 1.05;
+  margin: 0 0 16px;
+}
+
+h1 {
+  font-size: clamp(3rem, 9vw, 6.6rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 5vw, 3.7rem);
+}
+
+.lede {
+  color: var(--muted);
+  font-size: clamp(1.1rem, 2.3vw, 1.45rem);
+  max-width: 620px;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.button {
+  align-items: center;
+  border: 1px solid var(--accent);
+  color: var(--accent-dark);
+  display: inline-flex;
+  min-height: 44px;
+  padding: 11px 16px;
+}
+
+.button.primary {
+  background: var(--accent);
+  color: var(--white);
+}
+
+.intro-grid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: 0 clamp(18px, 5vw, 64px) 64px;
+}
+
+.intro-grid article {
+  background: var(--white);
+  border: 1px solid var(--line);
+  min-height: 290px;
+  padding: clamp(22px, 4vw, 38px);
+}
+
+.intro-grid h2 {
+  font-size: clamp(1.5rem, 2.4vw, 2.2rem);
+}
+
+.intro-grid p {
+  color: var(--muted);
+}
+
+.feature-band {
+  align-items: center;
+  background: var(--soft);
+  border-block: 1px solid var(--line);
+  display: flex;
+  gap: 28px;
+  justify-content: space-between;
+  padding: clamp(36px, 7vw, 78px) clamp(18px, 5vw, 64px);
+}
+
+.feature-band div {
+  max-width: 780px;
+}
+
+.page-main {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: clamp(36px, 7vw, 86px) clamp(18px, 5vw, 64px);
+}
+
+.page-main h1 {
+  font-size: clamp(2.6rem, 7vw, 5rem);
+  max-width: 900px;
+}
+
+.page-main .lead {
+  color: var(--muted);
+  font-size: 1.2rem;
+  max-width: 760px;
+}
+
+.content-grid {
+  display: grid;
+  gap: 28px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 42px;
+}
+
+.panel {
+  background: var(--white);
+  border: 1px solid var(--line);
+  padding: 28px;
+}
+
+.panel h2 {
+  font-size: 1.75rem;
+}
+
+.article-body {
+  background: var(--white);
+  border: 1px solid var(--line);
+  margin-top: 34px;
+  padding: clamp(24px, 5vw, 48px);
+}
+
+.article-body p,
+.article-body li {
+  color: #323b36;
+  font-size: 1.05rem;
+}
+
+footer {
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  padding: 28px clamp(18px, 5vw, 64px);
+}
+
+.small {
+  font-size: .9rem;
+}
+
+@media (max-width: 860px) {
+  .site-header,
+  .feature-band {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero,
+  .intro-grid,
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-media {
+    min-height: 360px;
+  }
+}
