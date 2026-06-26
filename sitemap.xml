@@ -62,6 +62,11 @@
       <image:title>Barry Billcliff public media event archive photo</image:title>
       <image:caption>Public media event photo from Barry Billcliff's archive.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/public-event-archive-4.jpg</image:loc>
+      <image:title>Barry Billcliff public event archive photo</image:title>
+      <image:caption>Public event photo from Barry Billcliff's archive.</image:caption>
+    </image:image>
   </url>
   <url><loc>http://www.barrybillcliff.com/sources.html</loc></url>
   <url><loc>http://www.barrybillcliff.com/articles/father-son-adventures.html</loc></url>
