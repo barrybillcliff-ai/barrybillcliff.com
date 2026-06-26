@@ -18,6 +18,7 @@ Create an owned, search-optimized asset for:
 - `pilot.html` - aviation profile
 - `adventures.html` - exploration/family travel hub
 - `entrepreneur.html` - business profile
+- `setting-the-record-straight.html` - sourced record page for the antique-money case and OSHA appeal update
 - `first-circuit-update.html` - careful First Circuit update
 - `articles/father-son-adventures.html` - first positive article draft
 - `articles/aviation-discipline.html` - second positive article draft
