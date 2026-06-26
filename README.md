@@ -20,6 +20,7 @@ Create an owned, search-optimized asset for:
 - `entrepreneur.html` - business profile
 - `setting-the-record-straight.html` - sourced record page for the antique-money case and OSHA appeal update
 - `first-circuit-update.html` - careful First Circuit update
+- `media.html` - media kit, fact sheet, profile links, and story angles
 - `articles/father-son-adventures.html` - first positive article draft
 - `articles/aviation-discipline.html` - second positive article draft
 - `articles/building-practical-businesses.html` - business-building article draft
