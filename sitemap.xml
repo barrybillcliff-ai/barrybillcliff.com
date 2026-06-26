@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>http://www.barrybillcliff.com/</loc></url>
   <url><loc>http://www.barrybillcliff.com/pilot.html</loc></url>
   <url><loc>http://www.barrybillcliff.com/adventures.html</loc></url>
-  <url><loc>http://www.barrybillcliff.com/travel.html</loc></url>
+  <url>
+    <loc>http://www.barrybillcliff.com/travel.html</loc>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/facebook-travel/machu-picchu-family-view.jpg</image:loc>
+      <image:title>Barry Billcliff family travel at Machu Picchu, Peru</image:title>
+      <image:caption>Machu Picchu, Peru, from Barry Billcliff's family travel archive.</image:caption>
+    </image:image>
+  </url>
   <url><loc>http://www.barrybillcliff.com/entrepreneur.html</loc></url>
   <url><loc>http://www.barrybillcliff.com/setting-the-record-straight.html</loc></url>
   <url><loc>http://www.barrybillcliff.com/first-circuit-update.html</loc></url>
