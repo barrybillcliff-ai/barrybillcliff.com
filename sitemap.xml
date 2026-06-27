@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url><loc>http://www.barrybillcliff.com/</loc></url>
-  <url><loc>http://www.barrybillcliff.com/pilot.html</loc></url>
+  <url>
+    <loc>http://www.barrybillcliff.com/pilot.html</loc>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/private-jet-aviation-profile.jpg</image:loc>
+      <image:title>Barry Billcliff private jet aviation profile photo</image:title>
+      <image:caption>Private jet aviation profile photo from Barry Billcliff's archive.</image:caption>
+    </image:image>
+  </url>
   <url>
     <loc>http://www.barrybillcliff.com/adventures.html</loc>
     <image:image>

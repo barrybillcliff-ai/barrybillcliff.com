@@ -259,6 +259,10 @@ h2 {
   aspect-ratio: 3 / 4;
 }
 
+.full-frame-visual img {
+  aspect-ratio: 4 / 3;
+}
+
 .image-grid {
   display: grid;
   gap: 1px;
