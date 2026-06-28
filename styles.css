@@ -38,6 +38,26 @@ a:hover {
   text-decoration: underline;
 }
 
+a:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.skip-link {
+  background: var(--ink);
+  color: var(--white);
+  left: 16px;
+  padding: 10px 14px;
+  position: fixed;
+  top: 12px;
+  transform: translateY(-140%);
+  z-index: 20;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 .site-header {
   align-items: center;
   background: rgba(251, 250, 246, .94);
@@ -344,6 +364,65 @@ footer {
   font-size: .9rem;
 }
 
+.image-grid,
+.proof-strip {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 520px;
+}
+
+.enhancement-panel {
+  background: var(--ink);
+  color: var(--white);
+  padding: clamp(36px, 7vw, 78px) clamp(18px, 5vw, 64px);
+}
+
+.enhancement-panel h2 {
+  max-width: 900px;
+}
+
+.enhancement-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 26px;
+}
+
+.enhancement-grid article {
+  background: rgba(255, 255, 255, .08);
+  border: 1px solid rgba(255, 255, 255, .18);
+  padding: 22px;
+}
+
+.enhancement-grid p {
+  color: rgba(255, 255, 255, .76);
+}
+
+img {
+  background: var(--soft);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.footer-links a {
+  color: var(--accent-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: clamp(2.5rem, 15vw, 3.4rem);
+  }
+}
+
 @media (max-width: 860px) {
   .site-header,
   .feature-band {
@@ -355,7 +434,8 @@ footer {
   .intro-grid,
   .content-grid,
   .image-grid,
-  .proof-strip {
+  .proof-strip,
+  .enhancement-grid {
     grid-template-columns: 1fr;
   }
 
