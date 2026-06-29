@@ -262,6 +262,24 @@
     </image:image>
   </url>
   <url><loc>http://www.barrybillcliff.com/entrepreneur.html</loc></url>
+  <url>
+    <loc>http://www.barrybillcliff.com/harm-reduction.html</loc>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/nonprofit/phoenix-harm-reduction-overview-clean.jpg</image:loc>
+      <image:title>Barry Billcliff harm-reduction and nonprofit work</image:title>
+      <image:caption>Harm-reduction education, overdose-prevention access, and nonprofit compliance work.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/nonprofit/phoenix-fentanyl-testing-strips-clean.jpg</image:loc>
+      <image:title>Fentanyl test-strip education resource preview</image:title>
+      <image:caption>Fentanyl test-strip education and harm-reduction awareness.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/nonprofit/phoenix-narcan-nasal-spray-clean.jpg</image:loc>
+      <image:title>Naloxone Narcan awareness resource preview</image:title>
+      <image:caption>Naloxone and Narcan awareness for overdose-prevention education.</image:caption>
+    </image:image>
+  </url>
   <url><loc>http://www.barrybillcliff.com/setting-the-record-straight.html</loc></url>
   <url><loc>http://www.barrybillcliff.com/first-circuit-update.html</loc></url>
   <url>

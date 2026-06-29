@@ -243,6 +243,12 @@ h2 {
   background: var(--white);
 }
 
+.feature-band.nonprofit-band {
+  background:
+    linear-gradient(135deg, rgba(23, 106, 115, .12), rgba(180, 129, 60, .12)),
+    var(--white);
+}
+
 .feature-band div {
   max-width: 780px;
 }
@@ -354,6 +360,74 @@ h2 {
   font-size: 1.05rem;
 }
 
+.nonprofit-page .content-grid {
+  align-items: stretch;
+}
+
+.resource-grid,
+.logo-grid {
+  display: grid;
+  gap: 18px;
+  margin-top: 34px;
+}
+
+.resource-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.resource-grid figure {
+  background: var(--white);
+  border: 1px solid var(--line);
+  margin: 0;
+}
+
+.resource-grid img {
+  aspect-ratio: 16 / 10;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.resource-grid figcaption {
+  color: var(--muted);
+  font-size: .92rem;
+  padding: 14px 16px;
+}
+
+.logo-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.logo-grid article {
+  background: var(--white);
+  border: 1px solid var(--line);
+  min-height: 260px;
+  padding: 22px;
+}
+
+.logo-grid img {
+  aspect-ratio: 1;
+  display: block;
+  margin-bottom: 16px;
+  max-width: 120px;
+  object-fit: contain;
+  width: 44%;
+}
+
+.logo-grid strong {
+  display: block;
+  font-size: 1.05rem;
+}
+
+.logo-grid p {
+  color: var(--muted);
+}
+
+.inline-band {
+  margin-top: 34px;
+  padding-inline: clamp(24px, 5vw, 48px);
+}
+
 footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
@@ -434,6 +508,8 @@ img {
   .intro-grid,
   .content-grid,
   .image-grid,
+  .resource-grid,
+  .logo-grid,
   .proof-strip,
   .enhancement-grid {
     grid-template-columns: 1fr;
