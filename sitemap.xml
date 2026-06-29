@@ -263,6 +263,14 @@
   </url>
   <url><loc>http://www.barrybillcliff.com/entrepreneur.html</loc></url>
   <url>
+    <loc>http://www.barrybillcliff.com/wrestling-mma-history.html</loc>
+    <image:image>
+      <image:loc>http://www.barrybillcliff.com/assets/sports-boxing-social-event-archive.jpg</image:loc>
+      <image:title>Barry Billcliff wrestling and MMA history</image:title>
+      <image:caption>Barry Billcliff athletic history, wrestling, MMA, and early resilience profile.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>http://www.barrybillcliff.com/harm-reduction.html</loc>
     <image:image>
       <image:loc>http://www.barrybillcliff.com/assets/nonprofit/phoenix-harm-reduction-overview-clean.jpg</image:loc>
